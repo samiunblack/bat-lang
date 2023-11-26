@@ -1,0 +1,41 @@
+{
+    "name": "bat-lang-highlighter",
+    "displayName": "Bat Lang",
+    "description": "Language syntax highlight for Bat Lang in Visual Studio Code",
+    "icon": "icon.png",
+    "version": "0.1.1",
+    "publisher": "SamiunBlack",
+    
+    "engines": {
+      "vscode": "^1.60.0"
+    },
+    "extensionKind": ["workspace"],
+    "contributes": {
+      "languages": [
+        {
+          "id": "bat-lang",
+          "aliases": ["bat"],
+          "extensions": [".batsy"],
+          "configuration": "./language-configuration.json",
+          "icon": {
+            "light": "./icons/batsy.png",
+            "dark": "./icons/batsy.png"
+          }
+        }
+      ],
+      "grammars": [
+        {
+          "language": "bat-lang",
+          "scopeName": "source.bat-lang",
+          "path": "./syntaxes/bat-lang.tmLanguage.json"
+        }
+      ]
+    },
+    "activationEvents": ["onLanguage:bat-lang"],
+    "main": "./out/extension.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/samiunblack/bat-lang.git"
+    }
+  }
+  

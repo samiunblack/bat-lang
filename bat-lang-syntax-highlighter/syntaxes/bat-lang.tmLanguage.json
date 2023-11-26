@@ -1,0 +1,80 @@
+{
+  "name": "bat-lang",
+  "scopeName": "source.bat-lang",
+  "fileTypes": ["batsy"],
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#numbers"
+    },
+    {
+      "include": "#functionCall"
+    },
+    { "include": "#booleans" }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "match": "\\b(batarang|batIf|batElse|batElif|fight till|batCave|utilityBelt|return|mystery)\\b",
+          "name": "keyword"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "begin": "\"",
+          "end": "\"",
+          "name": "string"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "match": "//.*",
+          "name": "comment"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "match": "\\b\\d+\\b",
+          "name": "constant.numeric"
+        }
+      ]
+    },
+    "functionCall": {
+      "patterns": [
+        {
+          "name": "entity.name.function.bat-lang",
+          "match": "\\b(?:[a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+          "captures": {
+            "0": {
+              "name": "entity.name.function.your-language"
+            }
+          }
+        }
+      ]
+    },
+
+    "booleans": {
+      "patterns": [
+        {
+          "match": "\\b(True|False)\\b",
+          "name": "constant.language.boolean"
+        }
+      ]
+    }
+  }
+}
