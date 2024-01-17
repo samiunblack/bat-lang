@@ -65,7 +65,7 @@ const Documentation = () => {
             <div className='mt-10 flex flex-col gap-4'>
                 <h1 className='text-3xl font-bold'>Run on Local Machine</h1>
                 <p>Install the language with pip</p>
-                <CodeBlock code={`pip install bat-lang`}/>
+                <CodeBlock code={`pip install batlang`}/>
                 <p>Install the <a href="https://marketplace.visualstudio.com/items?itemName=SamiunBlack.bat-lang-highlighter" className='text-blue-600' target='_blank'>syntax highlighter extension</a> in vs code</p>
                 <p className='font-bold text-xl'>Usage</p>
                 <p>Create a new file <code className='px-2 py-1 text-red-600 bg-zinc-900 rounded text-sm'>test.batsy</code></p>
