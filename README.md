@@ -3,14 +3,14 @@ A Batman inspired programming language written in Python
 
 
 ### Playground
-Test the languge on [Bat Lang Playground](https://www.batlang.com)
+Test the languge on [Bat Lang Playground](https://bat-lang.vercel.app/)
 
 
 ### Installation
 Install the language with `pip`
 
 ```
-pip install bat-lang 
+pip install batlang 
 ```
 Install the [syntax highlighter extension](https://marketplace.visualstudio.com/items?itemName=SamiunBlack.bat-lang-highlighter) in VS Code
 
