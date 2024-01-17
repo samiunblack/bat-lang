@@ -15,8 +15,8 @@ function Header(props) {
             {/* TODO: Add Copy Toolpick */}
             <code className={`mt-5 cursor-pointer px-2 py-1 text-red-600 bg-zinc-900 rounded text-sm`} onClick={handleClick}>pip install bat-lang</code>
            <div className='flex gap-5 flex-wrap justify-center'>
-           <button className='bg-neutral-950 text-red-600 px-5 py-4 rounded-md w-11/12 md:w-max lg:w-max'>Playground</button>
-           <button className='bg-neutral-950 text-red-600 px-5 py-4 rounded-md w-11/12 md:w-max lg:w-max'>Documentation</button>
+           <a href="https://pypi.org/project/batlang/"><button className='bg-neutral-950 text-red-600 px-5 py-4 rounded-md w-11/12 md:w-max lg:w-max'>PyPI Package</button></a>
+            <a href="https://marketplace.visualstudio.com/items?itemName=SamiunBlack.bat-lang-highlighter"><button className='bg-neutral-950 text-red-600 px-5 py-4 rounded-md w-11/12 md:w-max lg:w-max'>VS Code Extension</button></a>
            </div>
            <p>Made by <a className='text-red-500 cursor-pointer' href="https://github.com/samiunblack" target='_blank'>@Samiun Black</a></p>
         </div>
