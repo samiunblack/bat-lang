@@ -13,7 +13,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://i.ibb.co/WVjwLnF/image.png',
+        url: 'https://i.ibb.co/NTTVQch/image.png',
         alt: 'Bat Lang Logo',
       },
     ],
