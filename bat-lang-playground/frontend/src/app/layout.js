@@ -11,7 +11,12 @@ export const metadata = {
   authors: [{name: 'Samiun Black', url: 'https://www.github.com/samiunblack'}],
   creator: 'Samiun Black',
   openGraph: {
-    images: 'https://i.ibb.co/WVjwLnF/image.png',
+    images: [
+      {
+        url: 'https://i.ibb.co/WVjwLnF/image.png',
+        alt: 'Bat Lang Logo',
+      },
+    ],
   },
 }
 
