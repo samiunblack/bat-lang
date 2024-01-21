@@ -11,7 +11,7 @@ export const metadata = {
   authors: [{name: 'Samiun Black', url: 'https://www.github.com/samiunblack'}],
   creator: 'Samiun Black',
   openGraph: {
-    images: './src/app/images/og-image.png',
+    images: 'https://i.ibb.co/WVjwLnF/image.png',
   },
 }
 
