@@ -1,3 +1,5 @@
+![image](https://github.com/samiunblack/bat-lang/assets/76745609/95bb805c-01d0-4d0e-8bb8-1a18ca22fff7)
+
 # Bat Lang
 A Batman inspired programming language written in Python
 
